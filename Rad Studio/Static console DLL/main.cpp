@@ -27,6 +27,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout<<"\nФИО: ";
 	printFIO();
 
+	//Остановка консоли
 	std::system("pause");
 	return 0;
 }
