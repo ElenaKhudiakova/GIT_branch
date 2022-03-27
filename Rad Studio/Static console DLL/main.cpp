@@ -17,6 +17,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	//Смена кодировки
 	system("chcp 1251");
     std::system("cls");
 
