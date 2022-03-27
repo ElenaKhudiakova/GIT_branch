@@ -26,11 +26,13 @@ extern "C"
 {
 	__declspec(dllexport) int printGroup()
 	{
+		//Экспорт номера группы
 		int GroupNumber = 571227;
 		return GroupNumber;
 	}
 	__declspec(dllexport) wchar_t* printFIO()
 	{
+		//Экспорт строки ФИО
 		wchar_t *FIO = new wchar_t[80];
 		wcscpy(FIO,L"Худякова Елена Алексеевна");
 		return FIO;
