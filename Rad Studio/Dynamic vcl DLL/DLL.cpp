@@ -26,6 +26,7 @@ extern "C"
 {
 	__declspec(dllexport) int printGroup()
 	{
+		//Ёкспорт номера группы
 		int GroupNumber = 571227;
 		return GroupNumber;
 	}
