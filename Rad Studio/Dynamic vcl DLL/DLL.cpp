@@ -31,6 +31,7 @@ extern "C"
 	}
 	__declspec(dllexport) wchar_t* printFIO()
 	{
+		//Экспорт строки ФИО
 		wchar_t *FIO = new wchar_t[80];
 		wcscpy(FIO,L"Худякова Елена Алексеевна");
 		return FIO;
